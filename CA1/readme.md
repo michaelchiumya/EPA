@@ -23,3 +23,11 @@
 
   This indicates and proves that containers uses the same hardware resouce in this case the RAM.
   The bash script will give different outputs if run on different machine environments.
+
+#Dockerfile
+
+1.Creates image from base Ubuntu image with the latest version.
+2.Run the ubuntu sytem update.
+3.Copy the report.sh file to container
+4.Run the change mode command to allow the file to be an executable file
+5.Set the report.sh file as the entry point for the container.
